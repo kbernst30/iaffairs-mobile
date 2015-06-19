@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C66741581AEFFECD0038CC53 /* DetailedPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66741571AEFFECD0038CC53 /* DetailedPostViewController.swift */; };
 		C66765431AABD64200368ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66765421AABD64200368ABE /* AppDelegate.swift */; };
-		C66765451AABD64200368ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66765441AABD64200368ABE /* ViewController.swift */; };
 		C66765481AABD64200368ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66765461AABD64200368ABE /* Main.storyboard */; };
 		C667654A1AABD64200368ABE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66765491AABD64200368ABE /* Images.xcassets */; };
 		C667654D1AABD64200368ABE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C667654B1AABD64200368ABE /* LaunchScreen.xib */; };
 		C66765591AABD64200368ABE /* IAffairsCanadaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66765581AABD64200368ABE /* IAffairsCanadaTests.swift */; };
+		C66765631AABD75400368ABE /* WordpressApiConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66765621AABD75400368ABE /* WordpressApiConnection.swift */; };
+		C6A0A1531AB09E5E00F30154 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A0A1521AB09E5E00F30154 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C6FFF0431AAF2C7900FE1F44 /* PostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFF0421AAF2C7900FE1F44 /* PostsViewController.swift */; };
+		C6FFF0451AAF681E00FE1F44 /* PostsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFF0441AAF681E00FE1F44 /* PostsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +30,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C66741571AEFFECD0038CC53 /* DetailedPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedPostViewController.swift; sourceTree = "<group>"; };
 		C667653D1AABD64200368ABE /* IAffairsCanada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAffairsCanada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66765411AABD64200368ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C66765421AABD64200368ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C66765441AABD64200368ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C66765471AABD64200368ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C66765491AABD64200368ABE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C667654C1AABD64200368ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C66765521AABD64200368ABE /* IAffairsCanadaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAffairsCanadaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66765571AABD64200368ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C66765581AABD64200368ABE /* IAffairsCanadaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAffairsCanadaTests.swift; sourceTree = "<group>"; };
+		C66765621AABD75400368ABE /* WordpressApiConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordpressApiConnection.swift; sourceTree = "<group>"; };
+		C6A0A1521AB09E5E00F30154 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "../../../../Downloads/GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		C6A0A1541AB09E6F00F30154 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "../../../../Downloads/GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		C6A0A1561AB09FE700F30154 /* -Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "-Bridging-Header.h"; sourceTree = "<group>"; };
+		C6A0A1571AB0A05700F30154 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = ../../../../Downloads/GTMDefines.h; sourceTree = "<group>"; };
+		C6FFF0421AAF2C7900FE1F44 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
+		C6FFF0441AAF681E00FE1F44 /* PostsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +88,19 @@
 		C667653F1AABD64200368ABE /* IAffairsCanada */ = {
 			isa = PBXGroup;
 			children = (
+				C6A0A1561AB09FE700F30154 /* -Bridging-Header.h */,
+				C6A0A1571AB0A05700F30154 /* GTMDefines.h */,
+				C6A0A1541AB09E6F00F30154 /* GTMNSString+HTML.h */,
+				C6A0A1521AB09E5E00F30154 /* GTMNSString+HTML.m */,
 				C66765421AABD64200368ABE /* AppDelegate.swift */,
-				C66765441AABD64200368ABE /* ViewController.swift */,
 				C66765461AABD64200368ABE /* Main.storyboard */,
 				C66765491AABD64200368ABE /* Images.xcassets */,
 				C667654B1AABD64200368ABE /* LaunchScreen.xib */,
 				C66765401AABD64200368ABE /* Supporting Files */,
+				C66765621AABD75400368ABE /* WordpressApiConnection.swift */,
+				C6FFF0421AAF2C7900FE1F44 /* PostsViewController.swift */,
+				C6FFF0441AAF681E00FE1F44 /* PostsViewCell.swift */,
+				C66741571AEFFECD0038CC53 /* DetailedPostViewController.swift */,
 			);
 			path = IAffairsCanada;
 			sourceTree = "<group>";
@@ -212,7 +230,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C66765451AABD64200368ABE /* ViewController.swift in Sources */,
+				C6FFF0431AAF2C7900FE1F44 /* PostsViewController.swift in Sources */,
+				C66765631AABD75400368ABE /* WordpressApiConnection.swift in Sources */,
+				C6A0A1531AB09E5E00F30154 /* GTMNSString+HTML.m in Sources */,
+				C6FFF0451AAF681E00FE1F44 /* PostsViewCell.swift in Sources */,
+				C66741581AEFFECD0038CC53 /* DetailedPostViewController.swift in Sources */,
 				C66765431AABD64200368ABE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +361,7 @@
 				INFOPLIST_FILE = IAffairsCanada/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IAffairsCanada/-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -349,6 +372,7 @@
 				INFOPLIST_FILE = IAffairsCanada/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IAffairsCanada/-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +429,7 @@
 				C667655E1AABD64200368ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C667655F1AABD64200368ABE /* Build configuration list for PBXNativeTarget "IAffairsCanadaTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +438,7 @@
 				C66765611AABD64200368ABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
